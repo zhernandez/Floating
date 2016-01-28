@@ -1,0 +1,25 @@
+div>div{
+	width:25%;
+	height:100px;
+	float:left;
+}
+.padre{
+	width: 800px;
+	border:solid 2px #000;
+}
+.rojo{
+	background: #ff0077; 
+}
+.azul{
+	background: #6677dd;
+}
+.amarillo{
+	background: #ffee55;
+}
+.clearfix:before, .clearfix:after {
+	content:"";
+	display:table;
+}
+.clearfix:after {
+	clear: both;
+}
